@@ -1,3 +1,11 @@
+import { Task } from "./Task";
+
 export const App = () => {
-  return <div>123</div>;
+  return (
+    <div>
+      <Task title="Hello" />
+      <Task title="World" />
+      <Task title="Lorem" />
+    </div>
+  );
 };
