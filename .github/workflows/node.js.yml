@@ -25,6 +25,8 @@ jobs:
       - run: npm ci
       - name: Cypress run
         uses: cypress-io/github-action@v6
+        with:
+          component: true
 
   vitest-test:
     runs-on: ubuntu-latest
