@@ -30,6 +30,7 @@ export const addTaskFunctional = (props) => {
       id,
       title,
       created,
+      status: "pending",
     },
     ...(position === "start" ? list : []),
   ];
